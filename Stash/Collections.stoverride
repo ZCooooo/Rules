@@ -10,8 +10,8 @@ http:
       require-body: true
       timeout: 10
 
-mitm:
-  - '*.iwzwh.com'
+  mitm:
+    - '*.iwzwh.com'
 
 script-providers:
   吉真万年历:
