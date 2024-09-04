@@ -11,7 +11,7 @@ http:
       timeout: 10
 
   mitm:
-    - '*.iwzwh.com'
+    - *.iwzwh.com
 
 script-providers:
   吉真万年历:
