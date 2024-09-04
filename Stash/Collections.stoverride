@@ -1,0 +1,19 @@
+name: App解锁合集
+desc: ZCooooo
+#=============UserScript=============#
+http:
+  script:
+    # api.Revenuecat.com-解锁合集
+    - match: ^https?:\/\/calendarsrv\.iwzwh\.com\/api\/v1.1\/user\/getvipinfo
+      name: 吉真万年历
+      type: response
+      require-body: true
+      timeout: 10
+
+mitm:
+  - "calendarsrv.iwzwh.com"
+
+script-providers:
+  吉真万年历:
+    url: https://raw.githubusercontent.com/ZCooooo/Rules/main/Scripts/jizhen.js
+    interval: 86400
